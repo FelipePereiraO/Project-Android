@@ -6,7 +6,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class login extends AppCompatActivity {
+public class Login extends AppCompatActivity {
     private EditText username;
     private EditText password;
     private TextView result;

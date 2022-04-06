@@ -4,7 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:src="@drawable/background"
+        android:tint="#A9000000"
+        tools:ignore="MissingConstraints,UseAppTint" />
     <View
         android:id="@+id/view"
         android:layout_width="match_parent"
@@ -48,14 +54,14 @@
             android:text="Novo Treino" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/cadastro"
             android:layout_width="55dp"
             android:layout_height="155dp"
             android:layout_margin="10dp"
             android:layout_weight="1"
             android:backgroundTint="#2c3e50"
             android:text="Cadastro"
-            android:onClick="onClick"
+            android:onClick="onButtonClicked"
             />
     </LinearLayout>
 
