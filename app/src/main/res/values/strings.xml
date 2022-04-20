@@ -1,4 +1,17 @@
 <resources>
-    <string name="app_name">Academy</string>
-    <string name="entrar">Entrar</string>
+    <string name="app_name">TREINO APP</string>
+    <string name="welcome">BEM VINDO,</string>
+    
+    
+    <string name="btnsave">SALVAR</string>
+    
+    <string name="name">Nome</string>
+    <string name="date">Data de Nascimento</string>
+    <string name="height">Altura</string>
+    <string name="weight">Peso</string>
+    <string name="sex">Sexo</string>
+    <string name="men">Homem</string>
+    <string name="women">Mulher</string>
+    
+
 </resources>

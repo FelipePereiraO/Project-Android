@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TRAINING APP</string>
+    <string name="welcome">WELCOME,</string>
+
+    <string name="btnsave">SAVE</string>
+
+    <string name="name">Name</string>
+    <string name="date">Birth Date</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="sex">Sex</string>
+    <string name="men">Men</string>
+    <string name="women">Women</string>
+
+</resources>
