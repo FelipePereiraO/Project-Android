@@ -20,18 +20,6 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/config"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="76dp"
-        android:background="#00000000"
-        android:onClick="onButtonClicked"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_baseline_settings_24" />
-
-    <ImageButton
         android:id="@+id/exit"
         android:layout_width="48dp"
         android:layout_height="48dp"
@@ -43,14 +31,26 @@
         app:srcCompat="@drawable/ic_baseline_exit_to_app_24"
         app:tint="@color/black" />
 
-    <View
-        android:id="@+id/view2"
+    <ImageButton
+        android:id="@+id/prof"
         android:layout_width="363dp"
         android:layout_height="93dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="32dp"
+        android:onClick="onButtonConfig"
         android:background="@drawable/degrade"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameH"
+        tools:ignore="MissingConstraints" />
 
+    <ImageButton
+        android:id="@+id/prof2"
+        android:layout_width="363dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="164dp"
+        android:background="@drawable/degrade"
+        android:onClick="onButtonConfig"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nameH"
         tools:ignore="MissingConstraints" />
@@ -81,5 +81,52 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/welcome"
         app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <TextView
+        android:id="@+id/profile"
+        android:layout_width="108dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/profile"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/prof" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="34dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="@+id/prof"
+        app:layout_constraintTop_toTopOf="@+id/prof"
+        app:srcCompat="@drawable/ic_baseline_account_box_24" />
+
+    <TextView
+        android:id="@+id/training"
+        android:layout_width="110dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/training"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/prof2"
+        app:layout_constraintTop_toTopOf="@+id/prof2" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="37dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="@+id/prof2"
+        app:layout_constraintTop_toTopOf="@+id/prof2"
+        app:srcCompat="@drawable/ic_baseline_directions_run_24" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

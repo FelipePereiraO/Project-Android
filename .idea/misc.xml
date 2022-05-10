@@ -4,8 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/felli/AndroidStudioProjects/Academy/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3675" />
+        <entry key="..\:/Users/felli/AndroidStudioProjects/Academy/app/src/main/res/drawable/button_training.xml" value="0.339" />
         <entry key="..\:/Users/felli/AndroidStudioProjects/Academy/app/src/main/res/drawable/degrade.xml" value="0.3675" />
+        <entry key="..\:/Users/felli/AndroidStudioProjects/Academy/app/src/main/res/drawable/ic_baseline_account_box_24.xml" value="0.339" />
+        <entry key="..\:/Users/felli/AndroidStudioProjects/Academy/app/src/main/res/drawable/ic_baseline_directions_run_24.xml" value="0.339" />
         <entry key="..\:/Users/felli/AndroidStudioProjects/Academy/app/src/main/res/drawable/ic_baseline_exit_to_app_24.xml" value="0.3675" />
+        <entry key="..\:/Users/felli/AndroidStudioProjects/Academy/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.339" />
         <entry key="..\:/Users/felli/AndroidStudioProjects/Academy/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.3675" />
         <entry key="..\:/Users/felli/AndroidStudioProjects/Academy/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3675" />
         <entry key="..\:/Users/felli/AndroidStudioProjects/Academy/app/src/main/res/drawable/input_background.xml" value="0.354" />
@@ -14,7 +18,7 @@
         <entry key="..\:/Users/felli/AndroidStudioProjects/Academy/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/felli/AndroidStudioProjects/Academy/app/src/main/res/layout/home.xml" value="0.5" />
         <entry key="..\:/Users/felli/AndroidStudioProjects/Academy/app/src/main/res/layout/login.xml" value="0.33" />
-        <entry key="..\:/Users/felli/AndroidStudioProjects/Academy/app/src/main/res/layout/profile.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/felli/AndroidStudioProjects/Academy/app/src/main/res/layout/profile.xml" value="0.25" />
         <entry key="..\:/Users/felli/AndroidStudioProjects/Academy/app/src/main/res/layout/register.xml" value="0.33" />
       </map>
     </option>

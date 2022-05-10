@@ -8,34 +8,38 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-public class Home extends AppCompatActivity {
+public class Profile extends AppCompatActivity {
     private SharedPreferences sharedPrefs;
+
     public TextView name;
+    public TextView date;
+    public TextView height;
+    public TextView weight;
     public String result;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getSupportActionBar().hide();
-        setContentView(R.layout.home);
-        name = findViewById(R.id.nameH);
-        sharedPrefs = getSharedPreferences("dados", MODE_PRIVATE);
-        result = sharedPrefs.getString("name", "");
-        if(result == "") {
-            Intent intent = new Intent(this, Register.class);
-            startActivity(intent);
-        }
-        name.setText(result);
-    }
+        setContentView(R.layout.profile);
 
+        name = findViewById(R.id.nameProfile);
+        date = findViewById(R.id.ageProfile);
+        height = findViewById(R.id.heightProfile);
+        weight = findViewById(R.id.weightProfile);
+
+        sharedPrefs = getSharedPreferences("dados", MODE_PRIVATE);
+
+        name.setText(sharedPrefs.getString("name", ""));
+        date.setText(sharedPrefs.getString("Date", ""));
+        height.setText(sharedPrefs.getString("heightA", "0"));
+        weight.setText(sharedPrefs.getString("Weight", "0"));
+
+    }
     public void onButtonClicked(View view) {
 
         Intent intent = new Intent(this, Register.class);
         startActivity(intent);
 
-    }
-
-    public void onButtonConfig(View view){
-        Intent intent = new Intent(this, Profile.class);
-        startActivity(intent);
     }
 }

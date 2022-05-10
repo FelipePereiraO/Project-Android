@@ -35,6 +35,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
+        android:id="@+id/linearLayout3"
         android:layout_width="match_parent"
         android:layout_height="278dp"
         android:layout_marginTop="108dp"
@@ -47,7 +48,7 @@
 
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/bt_get"
             android:layout_width="55dp"
             android:layout_height="155dp"
             android:layout_margin="10dp"
@@ -62,9 +63,21 @@
             android:layout_margin="10dp"
             android:layout_weight="1"
             android:backgroundTint="#2c3e50"
-            android:text="Cadastro"
             android:onClick="onButtonClicked"
-            />
+            android:text="Cadastro" />
+
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="167dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="28dp"
+        android:layout_weight="1"
+        android:text="ULTIMA LOCALIZAÇÃO"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

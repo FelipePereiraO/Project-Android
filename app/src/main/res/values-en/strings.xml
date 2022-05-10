@@ -12,5 +12,9 @@
     <string name="sex">Sex</string>
     <string name="men">Men</string>
     <string name="women">Women</string>
+    <string name="profile">Profile</string>
+    <string name="training">Training</string>
+    <string name="myprofile">My Profile</string>
+    <string name="info">Information</string>
 
 </resources>
