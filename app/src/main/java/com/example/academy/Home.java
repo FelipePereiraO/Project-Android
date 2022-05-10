@@ -34,8 +34,12 @@ public class Home extends AppCompatActivity {
 
     }
 
-    public void onButtonConfig(View view){
+    public void onButtonProfile(View view){
         Intent intent = new Intent(this, Profile.class);
         startActivity(intent);
+    }
+    public void onButtonQuit(View view){
+        finish();
+        System.exit(0);
     }
 }
